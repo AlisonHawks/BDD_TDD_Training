@@ -14,5 +14,25 @@ namespace Using_NUnit
 
             Assert.AreEqual(4, result);
         }
+
+        [Test]
+        public void Multiplicar_2_valores()
+        {
+            var calc = new Calculate();
+
+            var result = calc.Multiplicar(2, 2);
+
+            Assert.AreEqual(4, result);
+        }
+
+        [Test]
+        public void Potencia_2_valores()
+        {
+            var calc = new Calculate();
+
+            var result = calc.Potecia(2, 2);
+
+            Assert.AreEqual(4, result);
+        }
     }
 }
